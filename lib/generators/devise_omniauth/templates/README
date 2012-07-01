@@ -1,0 +1,10 @@
+===============================================================================
+
+Open the newly created config/initializers/devise.rb and customize the following lines with your oauth settings:
+
+    config.omniauth :facebook, "[SET APP_ID HERE]", "[SET APP_SECRET HERE]"
+
+You must also also define root :to in your routes.rb for devise to work properly. You can set it to anything you want.
+See the devise wiki for more information
+
+===============================================================================

@@ -1,0 +1,13 @@
+Description:
+    Install devise-omniauth by copying a devise initializer, the devise views, devise locale translations
+
+Example:
+    rails generate devise_omniauth:install
+
+    This will create:
+        app/views/devise/*
+        config/initializers/devise.rb
+        config/locales/devise.en.yml
+
+    Add will add this to your routes.rb:
+        mount DeviseOmniauth::Engine => '/', :as => 'devise_omniauth'
