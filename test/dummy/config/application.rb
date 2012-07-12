@@ -3,7 +3,7 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 Bundler.require
-require "devise-omniauth"
+require "devise_omniauth"
 
 module Dummy
   class Application < Rails::Application

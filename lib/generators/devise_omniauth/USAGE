@@ -1,5 +1,5 @@
 Description:
-    Install devise-omniauth by copying a devise initializer, the devise views, devise locale translations
+    Install devise_omniauth by copying a devise initializer, the devise views, devise locale translations
 
 Example:
     rails generate devise_omniauth:install

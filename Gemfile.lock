@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    devise-omniauth (0.0.1)
+    devise_omniauth (0.0.1)
       devise (~> 2.1.2)
       omniauth-facebook (~> 1.4.0)
       rails (~> 3.2.6)
@@ -120,6 +120,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  devise-omniauth!
+  devise_omniauth!
   jquery-rails
   pg

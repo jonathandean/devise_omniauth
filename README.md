@@ -1,4 +1,4 @@
-devise-omniauth
+devise_omniauth
 ===============
 
 # This gem is very much in development and I do not at all recommend using it in a project yet. Feel free to contribute though :)

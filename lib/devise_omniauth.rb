@@ -1,5 +1,5 @@
 require 'devise'
-require "devise-omniauth/engine"
+require "devise_omniauth/engine"
 
 module DeviseOmniauth
 end
